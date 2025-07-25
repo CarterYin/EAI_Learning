@@ -9,4 +9,6 @@
 ## Step3：VMware快照与克隆
 - 最多不超过3个快照
 - Linux注意克隆后的主机名和MAC地址需要不同
-## 
+## Step4：Linux内核与发行版
+- Linux操作系统=Linux内核+GNU软件+x windows+sendmail+http web等等
+## Step5：
