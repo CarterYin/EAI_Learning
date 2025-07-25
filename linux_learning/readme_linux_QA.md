@@ -93,3 +93,20 @@ Defaults        timestamp_timeout=XX
 ```
 
 将 `XX` 替换为你希望的分钟数。设置为 `-1` 表示永远不过期，但这同样会带来安全风险，不建议长期使用。
+
+## Q2:vmware tools 灰色无法下载
+### 报错信息：（在启动虚拟机瞬间找到vmware tools下载，发现恢复可选状态，点击后有如下报错信息）
+
+VMware Tools is no longer shipped with VMware Workstation for legacy guest operating systems.
+
+Please download it from https://packages-prod.broadcom.com/tools/frozen/linux/linux.iso and refer to https://knowledge.broadcom.com/external/article?legacyId=1014294 for installation steps.
+
+No VMware Tools image exists for the guest operating system.
+
+### 解决方案：手动安装
+#### 一个CSDN链接如下：
+https://blog.csdn.net/m0_65754638/article/details/133088890?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7EPaidSort-1-133088890-blog-111216213.235%5Ev43%5Epc_blog_bottom_relevance_base1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7EPaidSort-1-133088890-blog-111216213.235%5Ev43%5Epc_blog_bottom_relevance_base1&utm_relevant_index=1
+### 具体如下：
+- 根据报错提供的下载链接，下载linux.iso文件，手动移动到虚拟机磁盘iso文件同目录下。
+- 在VMware里面打开对应虚拟机的settings，找到CD/DVD，点击add，添加一个CD/DVD，通过浏览本地文件的linux.iso打开后，开机即可找到。
+
