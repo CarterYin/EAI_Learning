@@ -29,8 +29,12 @@
 - Linux系统环境变量和登录信息提示
 ## Linux文件层次结构
 ## Linux命令补全及长命令换行
-- bash-completion
+- bash-completion命令行补全
 - \用于长命令换行
+- 多命令执行1 command1;command2 前后命令无关
+- 多命令执行2 command1 && command2 后一个命令执行的前提是前一个命令执行成功
+- 多命令执行3 command1 || command2 后一个命令执行的前提是前一个命令执行失败
+- 命令帮助 man page
 
   
   
