@@ -19,4 +19,5 @@
 
 简单来说，脚本就是你写给电脑的一份“待办事项清单”，让它自己去高效地完成任务。
 ##  Learn Containerization (Docker)
+### 【最新版3小时速通Docker入门到项目实战【完整版】附配套资料】https://www.bilibili.com/video/BV1BE6PYUESb?vd_source=4fd6c4265e65c0785c912874692a3971
 
